@@ -13,52 +13,52 @@
         
         <form action="{{ url_for('predict') }}" method="post">
             <label for="Age">Age:</label>
-            <input type="number" name="Age" required>
+            <input type="floatformat" name="Age" required>
 
             <label for="Pregnancies">Pregnancies:</label>
-            <input type="number" name="Pregnancies" required>
+            <input type="floatformat" name="Pregnancies" required>
 
             <label for="BMI">BMI</label>
-            <input type="number" name="BMI" required>
+            <input type="floatformat" name="BMI" required>
 
             <label for="Glucose">Glucose</label>
-            <input type="number" name="Glucose" required>
+            <input type="floatformat" name="Glucose" required>
 
             <label for="BloodPressure">BloodPressure</label>
-            <input type="number" name="BloodPressure" required>
+            <input type="floatformat" name="BloodPressure" required>
 
             <label for="HbA1c">Hemoglobin A1c level (%)</label>
-            <input type="number" name="HbA1c" required>
+            <input type="floatformat" name="HbA1c" required>
 
             <label for="LDL">Low-Density Lipoprotein</label>
-            <input type="number" name="LDL" required>
+            <input type="floatformat" name="LDL" required>
 
             <label for="HDL">High-Density Lipoprotein</label>
-            <input type="number" name="HDL" required>
+            <input type="floatformat" name="HDL" required>
 
             <label for="Triglycerides">Triglycerides</label>
-            <input type="number" name="Triglycerides" required>
+            <input type="floatformat" name="Triglycerides" required>
 
             <label for="WaistCircumference">WaistCircumference</label>
-            <input type="number" name="WaistCircumference" required>
+            <input type="floatformat" name="WaistCircumference" required>
 
             <label for="HipCircumference">HipCircumference</label>
-            <input type="number" name="HipCircumference" required>
+            <input type="floatformat" name="HipCircumference" required>
 
             <label for="WHR">Waist-to-Hip Ratio</label>
-            <input type="number" name="WHR" required>
+            <input type="floatformat" name="WHR" required>
 
             <label for="FamilyHistory">FamilyHistory</label>
-            <input type="number" name="FamilyHistory" required>
+            <input type="floatformat" name="FamilyHistory" required>
 
             <label for="DietType">DietType</label>
-            <input type="number" name="DietType" required>
+            <input type="floatformat" name="DietType" required>
 
             <label for="Hypertension">Hypertension</label>
-            <input type="number" name="Hypertension" required>
+            <input type="floatformat" name="Hypertension" required>
 
             <label for="MedicationUse">MedicationUse</label>
-            <input type="number" name="MedicationUse" required>
+            <input type="floatformat" name="MedicationUse" required>
 
             <button type="submit">Predict</button>
         </form>
