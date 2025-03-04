@@ -1,8 +1,10 @@
 
 ## **🩺 Diabetes Prediction Using Machine Learning**
 
+[link to web service](https://diabetes-prediction-3nj0.onrender.com/)
 
-### **📌 Project Overview**
+
+**📌 Project Overview**
 
 This project is a **Flask-based web application** that predicts whether an individual is diabetic or non-diabetic based on several health-related features. The model is trained using **machine learning** techniques and deployed using a Flask API.
 
